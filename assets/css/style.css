@@ -314,20 +314,28 @@ footer a {
       .step-img img {
 
         max-width: 100%;
-        
+
       }
 
-      /* .trainers {
+      .trainers {
 
-      } */
+        width: 100%;
+
+        margin: 0 auto;
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+
+      }
 
       .trainer {
 
-        overflow: auto;
+        margin: 20px;
 
-        width: 900ps;
-
-        margin: 0 auto 30px auto;
+        flex: 1;
 
         background: #024e76;
 
@@ -337,20 +345,38 @@ footer a {
 
       .trainer img {
 
-        width: 35%;
-
-        float: left;
+        width: 100%;
 
       }
 
       .trainer-bio {
 
-        padding: 35px;
+        padding: 25px;
 
-        float: left;
+        line-height: 1.3;
 
-        width: 65%;
+      }
 
+      .trainer-bio h3 {
+
+        font-size: 28px;
+
+      }
+
+      .trainer-bio h4 {
+
+        font-weight: lighter;
+
+        font-size: 22px;
+
+        margin-bottom: 15px;
+
+      }
+
+      .trainer-bio p {
+
+        font-size: 17px;
+        
       }
 
       .text-left {
@@ -363,32 +389,6 @@ footer a {
 
         text-align: right;
 
-      }
-
-      .trainer-bio h3 {
-
-        font-size: 32px;
-
-        margin-bottom: 8px;
-
-      }
-
-      .trainer-bio h4 {
-
-        font-weight: lighter;
-
-        font-size: 26px;
-
-        margin-bottom: 25px;
-
-      }
-
-      .trainer-bio p {
-
-        font-size: 17px;
-
-        line-height: 1.3;
-        
       }
 
       /* REACH OUT SYTLES START */
