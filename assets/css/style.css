@@ -42,7 +42,7 @@ header nav {
   }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -98,6 +98,8 @@ footer a {
         justify-content: center;
 
         flex-wrap: wrap;
+
+        align-items: flex-start;
 
     }
 
@@ -181,7 +183,7 @@ footer a {
 
       font-size: 18px;
 
-      line-height: 1.3;
+      line-height: 1.2;
 
     }
 
@@ -221,7 +223,7 @@ footer a {
 
       .section-title {
 
-        font-size: 55px;
+        font-size: 48px;
 
         color: #024e76;
 
@@ -510,3 +512,21 @@ footer a {
         display: flex;
 
       }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+
+}
