@@ -58,6 +58,14 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -158,21 +166,31 @@ footer a {
     
     .form-input {
 
-        border: 1px solid #024e76;
+      border: 1px solid #024e76;
 
-        border-radius: 10px;
+      border-radius: 10px;
 
-        display: block;
+      display: block;
 
-        padding: 7px 15px;
+      padding: 7px 15px;
 
-        font-size: 16px;
+      font-size: 16px;
 
-        color: #024e76;
+      color: #024e76;
 
-        width: 100%;
+      width: 100%;
 
-        margin-bottom: 15px;
+      margin-bottom: 15px;
+
+      background-color: rgba(255, 255, 255, 0.75);
+
+    }
+
+    .form-input:focus {
+
+      background-color: rgba(255, 255, 255, 1);
+
+      outline: none;
 
     }
 
@@ -195,6 +213,12 @@ footer a {
         padding: 10px 20px;
 
         font-size: 16px;
+
+    }
+
+    .hero-form button:hover {
+
+      background-color: #39a6b2; 
 
     }
 
@@ -288,8 +312,6 @@ footer a {
 
         width: 80%;
 
-        border-bottom: 1px solid #39a6b2;
-
         display: flex;
 
         flex-wrap: wrap;
@@ -297,6 +319,12 @@ footer a {
         align-items: center;
 
         justify-content: space-between;
+
+      }
+
+      .step:not(:last-child) {
+
+        border-bottom: 1px solid #39a6b2;
 
       }
 
@@ -460,6 +488,8 @@ footer a {
 
         font-size: 32px;
 
+        text-align: left;
+
       }
 
       .contact-info p, 
@@ -496,6 +526,17 @@ footer a {
 
         margin-top: 5px;
 
+        background-color: rgba(255, 255, 255, 1);
+
+      }
+
+      .contact-form input:focus,
+      .contact-form textarea:focus {
+
+        background-color: rgba(255, 255, 255, 1);
+
+        outline: none;
+
       }
 
       .contact-form button {
@@ -515,6 +556,14 @@ footer a {
         padding: 15px 0;
 
         font-size: 16px;
+
+      }
+
+      .contact-form button:hover {
+
+        color: #fce138;
+
+        background: #39a6b2;
 
       }
 
