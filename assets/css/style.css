@@ -11,6 +11,15 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -18,6 +27,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -33,18 +43,19 @@ header nav {
     display: inline;
   } */
 
-  header nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-  }
+}
 
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -74,13 +85,19 @@ footer div {
 }
 
 footer a {
+
     color: #024e76;
+
 }
 
 * {
+
     margin: 0;
+
     padding: 0;
+
     box-sizing: border-box;
+
 }
 
     /* Hero Style Start */
@@ -91,7 +108,9 @@ footer a {
 
         background-size: cover;
 
-        background-position: center;
+        background-attachment: fixed;
+
+        background-position: 80%;
 
         display: flex;
 
@@ -107,7 +126,9 @@ footer a {
 
         border: 3px solid #024e76;
 
-        background-color: #fce138;
+        border-radius: 15px;
+
+        background-color: rgba(252, 225, 56, 0.8);
 
         padding: 20px;
 
@@ -116,6 +137,8 @@ footer a {
         width: 40%;
 
         margin: 3.5%;
+
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
     }
 
@@ -136,6 +159,8 @@ footer a {
     .form-input {
 
         border: 1px solid #024e76;
+
+        border-radius: 10px;
 
         display: block;
 
@@ -164,6 +189,8 @@ footer a {
         background-color: #024e76;
 
         border: none;
+
+        border-radius: 10px;
 
         padding: 10px 20px;
 
@@ -194,6 +221,8 @@ footer a {
       font-size: 55px;
 
       color: #fce138;
+
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
     }
 
@@ -451,6 +480,8 @@ footer a {
 
         border: 1px solid #024e76;
 
+        border-radius: 10px;
+
         display: block;
 
         padding: 7px 15px;
@@ -472,6 +503,8 @@ footer a {
         width: 100%;
 
         border: none;
+
+        border-radius: 10px;
 
         background: #fce138;
 
@@ -522,6 +555,8 @@ footer a {
     padding-bottom: 0;
 
     justify-content: center;
+
+    position: relative;
 
   }
 
